@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "505432305645",
+    "firebase_url": "https://farmersmarket-f85e8.firebaseio.com",
+    "project_id": "farmersmarket-f85e8",
+    "storage_bucket": "farmersmarket-f85e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505432305645:android:b8e3d2141b04d6b9",
+        "android_client_info": {
+          "package_name": "com.example.dell.farmersmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505432305645-f74t3m86chkcfoen48ih19u6lkqrma6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.farmersmarket",
+            "certificate_hash": "43c10ee3f8f36be3adc8efdf7fff35ca46a6f97d"
+          }
+        },
+        {
+          "client_id": "505432305645-7g1b1hk77uh8dsgljgdfrmbba7ie3h1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyComk8GqidoSIptvRa3Utc6qOnGvyjL6H0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505432305645-7g1b1hk77uh8dsgljgdfrmbba7ie3h1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

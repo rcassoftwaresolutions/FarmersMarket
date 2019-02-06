@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Farmer\'s Market</string>
+
+
+    <string name="nameerr">Enter valid Name</string>
+    <string name="phoneerr">Enter your phone number </string>
+    <string name="emailerr">Enter your valid email</string>
+
+
+</resources>
