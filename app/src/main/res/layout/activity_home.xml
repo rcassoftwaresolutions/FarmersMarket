@@ -25,14 +25,15 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.157" />
 
     <EditText
         android:id="@+id/etPhone"
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_height="31dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -46,10 +47,10 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etName"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.068" />
 
     <EditText
         android:id="@+id/etEmail"
@@ -68,10 +69,10 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPhone"
-        app:layout_constraintVertical_bias="0.134" />
+        app:layout_constraintVertical_bias="0.073" />
 
     <TextView
         android:id="@+id/tvRole"
@@ -92,7 +93,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmail"
-        app:layout_constraintVertical_bias="0.126" />
+        app:layout_constraintVertical_bias="0.121" />
 
     <Spinner
         android:id="@+id/Spin1"
@@ -103,13 +104,13 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colornew7"
+        android:inputType="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toEndOf="@+id/tvRole"
         app:layout_constraintTop_toBottomOf="@+id/etEmail"
-        app:layout_constraintVertical_bias="0.125"
-        android:inputType="none"/>
+        app:layout_constraintVertical_bias="0.121" />
 
     <Button
         android:id="@+id/btnSubmit"
@@ -124,10 +125,35 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Spin1" />
+        app:layout_constraintTop_toBottomOf="@+id/Spin1"
+        app:layout_constraintVertical_bias="0.81" />
 
+    <EditText
+        android:id="@+id/etOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="36dp"
+        android:background="@color/colornew7"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="textPersonName"
+        android:textSize="24dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent" />
 
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:id="@+id/toolbar1"
+            android:background="@color/colorPrimary">
+
+        </android.support.v7.widget.Toolbar>
 
 </android.support.constraint.ConstraintLayout>
