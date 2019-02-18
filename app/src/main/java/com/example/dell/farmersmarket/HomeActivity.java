@@ -109,7 +109,8 @@ public class HomeActivity extends AppCompatActivity {
 
         //String regexPassword = "(?=.*[a-z])(?=.*[A-Z])(?=.*[\\d])(?=.*[~`!@#\\$%\\^&\\*\\(\\)\\-_\\+=\\{\\}\\[\\]\\|\\;:\"<>,./\\?]).{8,}";
         awesomeValidation.addValidation(HomeActivity.this, R.id.etName, "[a-zA-Z\\s]+", R.string.nameerr);
-        awesomeValidation.addValidation(HomeActivity.this, R.id.etPhone, "(^(?:(?:\\+|0{0,2})91(\\s*[\\ -]\\s*)?|[0]?)?[789]\\d{9}|(\\d[ -]?){10}\\d$)", R.string.phoneerr);
+        awesomeValidation.addValidation(HomeActivity.this, R.id.etPhone, "^[+]?[0-9]{10,13}$", R.string.phoneerr);
+        //(^(?:(?:\+|0{0,2})91(\s*[\ -]\s*)?|[0]?)?[789]\d{9}|(\d[ -]?){10}\d$)
         awesomeValidation.addValidation(HomeActivity.this, R.id.etEmail, android.util.Patterns.EMAIL_ADDRESS, R.string.emailerr);
         // awesomeValidation.addValidation(HomeActivity.this,R.id.pass,regexPassword,R.string.passerr);
         //awesomeValidation.addValidation(HomeActivity.this,R.id.cnfpass,R.id.pass,R.string.cnfpasserr);

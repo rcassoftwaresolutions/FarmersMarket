@@ -75,7 +75,7 @@ public class OTPActivity extends AppCompatActivity {
     //you can take the country id as user input as well
     private void sendVerificationCode(String mobile) {
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
-                "+91" + mobile,
+                "+1" + mobile,
                 60,
                 TimeUnit.SECONDS,
                 TaskExecutors.MAIN_THREAD,
